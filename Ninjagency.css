@@ -547,7 +547,7 @@ a img{
     color: rgba(255,255,255,0.7);
     font-size: 12px;
 }
-@media (min-width: 576px) and (max-width: 867px)
+@media (min-width: 576px) and (max-width: 767px)
 {
     .col-sm-12{
         padding-top: 25px;
@@ -560,6 +560,10 @@ a img{
 
     .img-responsive-bg{
         height: 1000px;
+    }
+
+    .margin_top{
+        margin-top: 20px;
     }
 }
 @media (min-width: 768px)
@@ -598,6 +602,10 @@ nav.before-color .nav>li {
 
     .img-responsive-bg{
         height: 600px;
+    }
+
+    .margin_top{
+        margin-top: 20px;
     }
 
 }
