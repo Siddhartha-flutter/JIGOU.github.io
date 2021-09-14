@@ -40,6 +40,7 @@ body {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
+    padding-bottom: 95%;
 }
 
 .About h1{
@@ -479,6 +480,9 @@ a img{
     text-transform: uppercase;
 }
 
+.contact-form label{
+    color: #fff;
+}
 .contact-form .form-control {
     min-height: 45px;
     border: 0;
@@ -565,6 +569,10 @@ a img{
     .margin_top{
         margin-top: 20px;
     }
+
+    .About{
+        padding-bottom: 900px;
+    }
 }
 @media (min-width: 768px)
 {
@@ -591,6 +599,18 @@ nav.before-color .nav>li {
         padding-top: 25px;
     }
 
+    .About{
+        padding-bottom: 500px;
+    }
+
+    span.carousel-control-prev-icon{
+        display: none;
+    }
+
+    span.carousel-control-next-icon{
+        display: none;
+    }
+
     .feature{
         text-align: center;
         margin-top: 25px;
@@ -606,6 +626,14 @@ nav.before-color .nav>li {
 
     .margin_top{
         margin-top: 20px;
+    }
+
+    .modal-footer{
+        justify-content: center;
+    }
+
+    .modal-title h1{
+        font-size: revert;
     }
 
 }
