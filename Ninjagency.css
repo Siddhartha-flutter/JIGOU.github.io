@@ -519,6 +519,15 @@ a img{
     margin-bottom: 30px;
 }
 
+.modal-title h1{
+    margin: 0;
+}
+
+.modal-body span{
+    font-size: 16px;
+    line-height: 3;
+}
+
 .btn-border-black:hover {
     color: #fff;
     border-color: #333;
