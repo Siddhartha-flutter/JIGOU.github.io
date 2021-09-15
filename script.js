@@ -71,16 +71,6 @@ submitBtn.onclick = function()
    
 }
 
-var load;
-
-function myFunction(){
-   load = setTimeout(showit, 3000);
-}
-
-function showit(){
-   document.getElementById('loader').style.display="none";
-   document.getElementById('myshow').style.display="block";
-}
 
 
   

@@ -24,18 +24,6 @@ body {
     font-size: 14px;
 }
 
-#loader{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    transform: translate(-50%, -50%);
-}
-
-#myshow{
-    display: none;
-}
-
 .bottom-animate{
     position: relative;
     -webkit-animation-name: animateit;
@@ -701,10 +689,6 @@ nav.before-color .nav>li {
 
    .col-sm-12{
         padding-top: 25px;
-    }
-
-    #loader img{
-        width: 300px;
     }
 
     .About{
