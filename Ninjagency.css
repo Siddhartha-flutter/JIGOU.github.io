@@ -24,6 +24,46 @@ body {
     font-size: 14px;
 }
 
+#loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+#myshow{
+    display: none;
+}
+
+.bottom-animate{
+    position: relative;
+    -webkit-animation-name: animateit;
+    -webkit-animation-duration: 1s;
+    animation: animateit 1s;
+}
+
+@-webkit-keyframes animateit{
+    from{
+        bottom: -100px;
+        opacity: 0;
+    }
+    to{
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+@keyframes animateit{
+    from{
+        bottom: -100px;
+        opacity: 0;
+    }
+    to{
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
 #navbar li{
     font-size: 15px;
     padding: 15px;
@@ -479,6 +519,55 @@ a img{
     color: #fff;
     text-transform: uppercase;
 }
+#validateForm,#ResultDiv
+{
+    width: 50vw;
+    
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    border-radius: 6px;
+    padding: 2% 4% 6% 4%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+fieldset
+{
+    margin: 10px 0;
+}
+.input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: #fff;   
+}
+
+.errMessage
+{
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+#submitBtn
+{
+    padding: 12px 20px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+.flexDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#eye
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 
 .contact-form label{
     color: #fff;
@@ -532,6 +621,12 @@ a img{
     color: #fff;
     border-color: #333;
     background-color: #333;
+}
+
+.btn-border-theme:hover {
+    color: #fff;
+    border-color: #03a9f4;
+    background-color: #03a9f4;
 }
 
 .footer {
@@ -606,6 +701,10 @@ nav.before-color .nav>li {
 
    .col-sm-12{
         padding-top: 25px;
+    }
+
+    #loader img{
+        width: 300px;
     }
 
     .About{
